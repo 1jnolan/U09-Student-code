@@ -1,0 +1,13 @@
+#Nested Conditionals:
+#Student Name:
+#********************************
+
+age=int(input("Please enter your age: "))
+hasProvisional=input("Do you have a provisional licence (y/n)? ")
+if age >=17:
+    if hasProvisional == "y":
+        print("You are eligible to apply for a driving licence.")
+    else:
+        print("You are not eligible to apply for a driving licence. You must get a provisional licence first")
+else:
+    print("You are not eligible to apply for a driving licence until you are aged 17 or over and have a provisional licence")
